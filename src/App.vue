@@ -15,8 +15,8 @@ export default {
   mounted() {
     const svgContainer = document.getElementById("svgContainer");
     const animItem = lottie.loadAnimation({
-      wrapper: svgContainer,
-      animType: "svg",
+      container: svgContainer,
+      renderer: "svg",
       loop: true,
       path:
         "https://labs.nearpod.com/bodymovin/demo/markus/isometric/markus2.json",
